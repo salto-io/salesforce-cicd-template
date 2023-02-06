@@ -85,7 +85,23 @@ sfdx force:source:deploy -p force-app
 
 After this, the exact same code should be deployed to all your orgs!
 
-### Starting the course
+## Reset Git
+
+Because you cloned this repository, your local version of it its still tied to this remote. 
+
+We need to remove this relationship so that we can start with Git from scratch later in the course.
+
+From **within** the folder `salesforce-cicd-template`, run the following command:
+
+In linux/mac
+
+`sudo rm -rf .git`
+
+In Windows
+
+`rm -rf .git`
+
+## Starting the course
 
 You can now set the "dev sandbox" as default, as this is what we'll use to start the course.
 
