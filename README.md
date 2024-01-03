@@ -99,7 +99,7 @@ In linux/mac
 
 In Windows
 
-`rm -rf .git`
+`rm -rf .git` or `rm -Force .git`
 
 ## Starting the course
 
